@@ -1,0 +1,57 @@
+h1{
+color: cornflowerblue;
+font-size: 25px;
+font-style: oblique;
+text-align: center;
+
+}
+
+h2{
+color: cornflowerblue;
+font-size: 20px;
+font-style: oblique;
+
+}
+
+p{
+font-style: oblique;
+    
+}
+
+img{
+width: 200px;
+weight: 100px;
+}
+
+.container01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container01 img{
+    max-width: 100%;
+
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.item h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.item p {
+    margin-bottom: 0;
+}
