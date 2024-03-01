@@ -1,0 +1,20 @@
+p{
+    color: chartreuse;
+}
+
+.cor{
+    color: cadetblue;
+    font-size: 32px;
+}
+
+#texto{
+    color: darkblue;
+    border: 1px solid chartreuse;
+    text-align: center;
+}
+
+#texto2{
+    color: chartreuse;
+    border: 1px solid coral;
+    text-align: right;
+}
