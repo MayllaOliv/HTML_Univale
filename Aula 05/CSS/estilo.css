@@ -1,0 +1,12 @@
+div{
+    height: 70px;
+    width: 100px;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px; 
+}
+
+div{
+    padding-top: 30px;
+}
