@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        font-family: "Roboto";     
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+
+    input[type=text], input[type=email], textarea{
+        width: 100%;
+        padding: 12px 0;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: none;
+        background-color: rgb(61, 57, 57);
+        border-bottom: 1px solid;
+    }
+
+    input[type=text]:focus, input[type=email]:active{
+        background: transparent;
+    }
+
+    .container{
+        width: min(1000px, 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        box-shadow:
+        0.7px 0.5px 2.2px rgba(0, 0, 0, 0.2),
+        1.8px 1.3px 5.3px rgba(0, 0, 0, 0.028),
+        3.4px 2.4px 10px rgba(0, 0, 0, 0.035),
+        6px 4.2px 17.9px rgba(0, 0, 0, 0.042),
+        11.3px 7.9px 33.4px rgba(0, 0, 0, 0.05),
+        27px 19px 80px rgba(0, 0, 0, 0.07);
+    }
+
+    .forms{
+        background-color: rgb(61, 57, 57);
+        padding: 3%;
+        width: 50%;
+        height: 100%;
+    }
+
+    .info{
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        padding: 4%;
+    }
+
+    .info .body{
+        height: 70%;
+        width: 100%;
+    }
+
+    .info img{
+        width: 30%;
+        height: 70%;
+    }
+
+    button{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:white;
+        color: rgb(3, 3, 3);
+        font-size: 16px;
+        border: 1px solid white;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover{
+        background-color: rgb(255, 255, 255);
+        color: #fbfbfc;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    ul li{
+        margin: 4% 0;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .list img{
+        margin-right: 5%;
+        background-color: transparent;
+        padding: 1%;
+        border-radius: 100%;
+        border: 1px solid black;
+        height: 50px;
+        width: 50px;
+    }
+
+    .container02 img{
+        background-color: transparent;
+        padding: 1%;
+        border-radius: 100%;
+        border: 1px solid black;
+        height: 50px;
+        width: 50px;
+        display: inline;
+        margin-left: 60px;
+    
+    }
+
+</style>
+
+
+<body>
+    
+    
+    <div class="container">
+        <div class="forms">
+            <h2 style="margin-bottom: 5%;">Entre em contato</h2> <br><br>
+            <form action="">
+                <input type="text" id="name" name="name" placeholder="Nome"><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <input type="text" id="subject" name="subject" placeholder="Assunto"><br>
+                <textarea name="message" id="message" placeholder="Escreva algo..." style="height: 200%;"></textarea>
+                <button type="submit"> Enviar </button>   
+            </form>
+        </div>
+        <div class="info">
+            <div class="header">
+                <h1 style="margin-bottom: 3%;"> Entre em Contato</h1>
+                <p>queremos o seu feedback, nos envie uma mensagem.</p> <br>         
+            </div>
+            <div class="body">
+                <ul>
+                    <li>
+                        <div class="list">
+                            <img src="https://w7.pngwing.com/pngs/718/873/png-transparent-computer-icons-email-symbol-email-miscellaneous-angle-logo-thumbnail.png" alt="deu ruim">
+                            <div class="text"><span>Email:</span>d_walter@gmail.com</div>      
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list">
+                            <img src="https://static.vecteezy.com/system/resources/previews/027/179/393/non_2x/location-map-address-icon-symbol-free-png.png" alt="deu ruim">
+                            <div class="text"><span>Endereço:</span>Rua Santa Catarina, 123 - Centro</div>      
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list">
+                            <img src="https://cdn-icons-png.flaticon.com/512/725/725624.png" alt="deu ruim">
+                            <div class="text"><span>Telefone:</span>(43) 99818-2963</div>      
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list">
+                            <img src="https://w7.pngwing.com/pngs/639/449/png-transparent-computer-icons-website-icon-text-globe-symmetry-thumbnail.png" alt="deu ruim">
+                            <div class="text"><span>Website:</span>www.D.Walter.com.br</div>     
+                        </div>
+                    </li>
+                </ul> 
+                <br><br>
+                <div class="container02">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3670/3670274.png" alt="Imagem 1">
+                    <img src="https://e7.pngegg.com/pngimages/729/946/png-clipart-facebook-like-button-computer-icons-social-icons-logo-internet-thumbnail.png" alt="Imagem 2">
+                    <img src="https://e7.pngegg.com/pngimages/515/1/png-clipart-computer-icons-logo-twitter-icon-logo-computer-wallpaper.png" alt="Imagem 3">
+                </div>
+            </div>  
+        </div>
+    </div> 
+</body>
+</html>
